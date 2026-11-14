@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "llama": {
     "repo": "ggml-org/llama.cpp",
-    "ref": "b12019",
+    "ref": "b12375",
     "sha256": {
-      "linux-cuda": "0295172839d1ff69c4e83d69b5cd3cad81442c463004495710de694968b7fab8",
-      "linux-cudart": "842484ddbe6a6b29d9587b2295d0310ecf4e9825f28f129e019c4624168ec82e",
-      "linux-vulkan": "32283c875bd24c6fa63dbad08f3b60142ddeb7a1f3c50c4f9e09ef46561afe7f",
-      "linux-cpu": "209de6f5c07fa505b4e38678f067bf6c3ddd254c1465e5608924cccf0cdfb0f7",
-      "win-cuda": "b1fe533a8e95d7a6857dba3562288ec64acd537c8533530b25af2b1d5c153d7e",
+      "linux-cuda": "36ad425cb846ec831ec48b7789b032e43e6df931f95eed7fcbd7fabdbd521225",
+      "linux-cudart": "85e106462d96a5506383a3833c607607196669e65c736964dcb4c76e84e6db67",
+      "linux-vulkan": "e5144c8499399c115c7f5319421942252e9e84bf7d78b46f968cd5dbc769df72",
+      "linux-cpu": "89fdf5a4066170fa408a5ebe1510b50bd8a5bab750e49ae531bb1d4cdbae65e3",
+      "win-cuda": "8b7bf8f3b5269531cbf00c52e4ee5d8b0c77cb4ea7af694ed3da3a34e47a7099",
       "win-cudart": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
-      "win-vulkan": "5baf89edb62446cab5974848ee53b4391f2dc0d7a93eecb95cf6df26f470c427",
-      "win-cpu": "ff2ee6abe944250591192486f9493f7e2527a907c0309da16f559a8b96b0486d"
+      "win-vulkan": "8990615f25d4fa12a7f1d8fc9da995538ce739fec01838f003fa9ff099d643f0",
+      "win-cpu": "3aa7046f1b310c404418625d4e7e7b057c2d0e0eef5557925561381373d8f026"
     }
   },
   "prism": {
@@ -58,12 +58,12 @@
   },
   "nvidia": {
     "linux": {
-      "nvidia-cuda-runtime": "13.4.92",
-      "nvidia-cublas": "13.8.2.12",
-      "nvidia-curand": "10.4.4.72",
-      "nvidia-cudnn-cu13": "9.27.0.42",
-      "nvidia-cufft": "12.4.0.43",
-      "nvidia-cuda-nvrtc": "13.4.92"
+      "nvidia-cuda-runtime": "13.5.37",
+      "nvidia-cublas": "13.10.0.20",
+      "nvidia-curand": "10.4.5.25",
+      "nvidia-cudnn-cu13": "9.28.1.4",
+      "nvidia-cufft": "12.5.0.14",
+      "nvidia-cuda-nvrtc": "13.5.37"
     },
     "win": {
       "nvidia-cublas-cu12": {
@@ -79,8 +79,8 @@
         "sha256": "8e018af8fa02363876860388bd10ccb89eb9ab8fb0aa749aaf58430a9f7c4891"
       },
       "nvidia-cudnn-cu12": {
-        "version": "9.27.0.42",
-        "sha256": "06e9b0026f3bad97d2b58666330fabec04fe1672f776661ecb0ce0029c27f142"
+        "version": "9.28.1.4",
+        "sha256": "3467aafa9b260e6adf5fbbfc0e21d180133305b42032aa1160be2d3142bb8b09"
       },
       "nvidia-cufft-cu12": {
         "version": "11.4.1.4",
