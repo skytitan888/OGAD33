@@ -2,28 +2,28 @@
   "schemaVersion": 1,
   "llama": {
     "repo": "ggml-org/llama.cpp",
-    "ref": "b12019",
+    "ref": "b12823",
     "sha256": {
-      "linux-cuda": "0295172839d1ff69c4e83d69b5cd3cad81442c463004495710de694968b7fab8",
-      "linux-cudart": "842484ddbe6a6b29d9587b2295d0310ecf4e9825f28f129e019c4624168ec82e",
-      "linux-vulkan": "32283c875bd24c6fa63dbad08f3b60142ddeb7a1f3c50c4f9e09ef46561afe7f",
-      "linux-cpu": "209de6f5c07fa505b4e38678f067bf6c3ddd254c1465e5608924cccf0cdfb0f7",
-      "win-cuda": "b1fe533a8e95d7a6857dba3562288ec64acd537c8533530b25af2b1d5c153d7e",
+      "linux-cuda": "c6c3e6d604df5518f16054e17c1a6a7e164317a7e47c1209a16e6e68b42cb032",
+      "linux-cudart": "4f47068e8b6f357fe205cbcae25b7a8e5582b0a703346bebfd9b18f8e8f08c4e",
+      "linux-vulkan": "760732581b5034f459810c582f7271cb931c392f34f46b237697d11369a117a7",
+      "linux-cpu": "7f5a7c2ea9fe5b4ec3ef2af1ece4841f7dd9d82d07f8f96e6f0b4ac4ec46e16e",
+      "win-cuda": "5e850de49760bf246dd6a080a3a8a6cbc5d230ba0fda315a97a0570312b6f1d8",
       "win-cudart": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
-      "win-vulkan": "5baf89edb62446cab5974848ee53b4391f2dc0d7a93eecb95cf6df26f470c427",
-      "win-cpu": "ff2ee6abe944250591192486f9493f7e2527a907c0309da16f559a8b96b0486d"
+      "win-vulkan": "57f0d96e28222142112cd47e49b6c3519b0df692caa837e2f7239456f1781110",
+      "win-cpu": "1988ce5b0945f404b19c7dd7778ce64a489983f7ee0f9b0957c016496d380a91"
     }
   },
   "prism": {
     "repo": "PrismML-Eng/llama.cpp",
-    "ref": "prism-b12128-d7b2896",
+    "ref": "prism-b12232-f702476",
     "sha256": {
-      "linux-cuda": "d800a807295e73742d4dff7d3aa3a3438d6147882c9b609ef8bacba333bead01",
-      "linux-vulkan": "a73a76f26b161e2fff3815cc3ae6f1daeee5991e1269982561aa620e8e07cca4",
-      "linux-cpu": "67bdd24e458715fd2fbb128297c44f480b3b4bbea254adf5e571feb3e82c5f53",
-      "win-cuda": "14969ae6831abfc836295e8f4b8e09e686a063b559a8c974412001d9f5ce4f7f",
-      "win-vulkan": "ec1479514a34272c815b3d194046d27003867aa9c95069d9cd3031b5c31e01ff",
-      "win-cpu": "a6e41db401ce93a28f4a2ed20fb7809455302231dd37037c9f1b4505d33fe00b"
+      "linux-cuda": "5aeef1a6c543765a488920a771c4cde0931b95f4cb52dfa9aa3c7e0e106d329f",
+      "linux-vulkan": "c65f0134336b8c60cf18998cfd5ac0dd863340e756bcf9ed255c3e463d64f263",
+      "linux-cpu": "c768a086d35baebcd836c68d4eeecf12c5221b6c6123aeed3c8d9b15e9dedbea",
+      "win-cuda": "b8fc8ed66a77b946792c03d388df1f935acd292d59c8568468ea38d1f457b499",
+      "win-vulkan": "9c9799c56a5290079fe0b40be79278eb54ba2c07392a33e1f67dd3df6f3ffcfc",
+      "win-cpu": "0d130c303efab5a3703695357ba92946024f97df91701616c56879fe7f50c022"
     }
   },
   "sd": {
@@ -49,21 +49,21 @@
   },
   "sherpa": {
     "repo": "k2-fsa/sherpa-onnx",
-    "ref": "v2.0.1",
+    "ref": "v2.0.3",
     "sha256": {
-      "mac-universal": "bf6718f708e15390f1da133dd888661a68df270791b178aaf765d4e3f0baa9fe",
-      "linux-x64": "2e823376987c3b6960d50726b6560155e2ad92da0b8b3886325773225ec6bdec",
-      "win-x64": "dc703575a68594435f53dec93df775ff4913af851a196c0537163f21d8d2364e"
+      "mac-universal": "563e084981190996f3f5620000b1c62447182ff01ff39dea1158df9dc4fd229c",
+      "linux-x64": "615b1bf0140bf09051c15fde6579e48543696352ebd477217d2e69b49d9aec13",
+      "win-x64": "1d2414ac8921f718ba3188782f80475f525a3d82eeb59cef75ceb9360fbf8182"
     }
   },
   "nvidia": {
     "linux": {
-      "nvidia-cuda-runtime": "13.4.92",
-      "nvidia-cublas": "13.8.2.12",
-      "nvidia-curand": "10.4.4.72",
-      "nvidia-cudnn-cu13": "9.27.0.42",
-      "nvidia-cufft": "12.4.0.43",
-      "nvidia-cuda-nvrtc": "13.4.92"
+      "nvidia-cuda-runtime": "13.5.37",
+      "nvidia-cublas": "13.10.1.6",
+      "nvidia-curand": "10.4.5.25",
+      "nvidia-cudnn-cu13": "9.28.1.4",
+      "nvidia-cufft": "12.5.0.14",
+      "nvidia-cuda-nvrtc": "13.5.37"
     },
     "win": {
       "nvidia-cublas-cu12": {
@@ -79,8 +79,8 @@
         "sha256": "8e018af8fa02363876860388bd10ccb89eb9ab8fb0aa749aaf58430a9f7c4891"
       },
       "nvidia-cudnn-cu12": {
-        "version": "9.27.0.42",
-        "sha256": "06e9b0026f3bad97d2b58666330fabec04fe1672f776661ecb0ce0029c27f142"
+        "version": "9.28.1.4",
+        "sha256": "3467aafa9b260e6adf5fbbfc0e21d180133305b42032aa1160be2d3142bb8b09"
       },
       "nvidia-cufft-cu12": {
         "version": "11.4.1.4",
